@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*">
+            <PrivateAssets>All</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Component\Battle\" />
+      <Folder Include="Component\Cutscene\" />
+      <Folder Include="Component\Dialogue\" />
+      <Folder Include="Component\Inventory\" />
+      <Folder Include="Component\Menu\" />
+      <Folder Include="Component\Save\" />
+      <Folder Include="Component\Shop\" />
+      <Folder Include="Configuration\" />
+      <Folder Include="System\Audio\" />
+      <Folder Include="System\Camera\" />
+      <Folder Include="System\Collision\" />
+      <Folder Include="System\Content\" />
+      <Folder Include="System\Data\" />
+      <Folder Include="System\Entity\" />
+      <Folder Include="System\Input\" />
+      <Folder Include="System\Physics\" />
+      <Folder Include="System\Scene\" />
+      <Folder Include="System\UI\" />
+    </ItemGroup>
+</Project>
